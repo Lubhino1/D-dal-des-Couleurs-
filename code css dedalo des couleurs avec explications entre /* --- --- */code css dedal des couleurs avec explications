@@ -1,0 +1,239 @@
+/* --- STYLE GÉNÉRAL --- */
+body {
+    font-family: 'Inter';
+    margin: auto;
+    text-decoration: none;
+}
+
+/* --- EN-TÊTE --- */
+header {}
+
+/* Style de la barre de navigation */
+nav {
+    width: 100%;
+    margin: 0 auto 40px auto;
+    background-color: white;
+    position: fixed; /* Garde la barre en haut même lors du défilement */
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Ombre sous la barre */
+    font-size: 12px;
+}
+
+.titre {
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bolder; /* Titre en gras */
+}
+
+/* Suppression des puces pour la liste */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: right; /* Les liens sont alignés à droite */
+    width: 10%;
+    text-align: center;
+}
+
+/* Nettoie le float des éléments dans la liste */
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style des liens dans la barre de navigation */
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent; /* Pas de soulignement visible */
+    font-weight: bold;
+    padding-left: -300px;
+    margin-top: 4.5px;
+}
+
+/* Couleur changeante au survol */
+nav a:hover {
+    color: rgb(144, 144, 144);
+}
+
+/* --- IMAGE DE BANNIÈRE --- */
+.image {
+    margin-top: 20px;
+}
+
+.galerie {
+    margin-left: 400px;
+    margin-top: -110px;
+    font-size: 32px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fa-arrow-down {
+    color: white;
+    margin-left: 650px;
+}
+
+/* --- TITRES --- */
+h2 {
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+.titre2 {
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+/* --- CONTENU DES SECTIONS --- */
+.image2 {
+    float: right;
+    margin-top: -200px;
+}
+
+.paragraphe {
+    float: left;
+    padding-right: 650px; /* Met un espace à droite */
+    margin-left: 35px;
+}
+
+/* Texte en gras pour les disponibilités */
+.dispo {
+    font-weight: bold;
+}
+
+.paragraphe3 {
+    float: right;
+    margin-left: 650px;
+}
+
+.image3 {
+    float: left;
+    margin-top: -200px;
+}
+
+/* --- BOUTONS --- */
+button {
+    list-style-type: none;
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+.button1,
+.button2 {
+    margin-left: 475px;
+    margin-top: 20px;
+    color: white;
+    background-color: #1e1e1e; /* Fond sombre */
+    padding: 10px 20px;
+    border-radius: 12px; /* Coins arrondis */
+    border: none;
+}
+
+.button2 {
+    margin-top: 35px;
+}
+
+.button3 {
+    margin-left: 600px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+    color: black;
+    background-color: white; /* Bouton clair */
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+/* --- GRILLE D'IMAGES --- */
+.ligne,
+.ligne2 {
+    margin-left: 175px;
+}
+
+.image4 {
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+/* --- PIED DE PAGE --- */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: black; /* Fond noir */
+    color: white;
+}
+
+.RS {
+    margin-left: 50px;
+    padding-right: 120px;
+    text-align: center;
+    float: right;
+}
+
+.contact {
+    padding-right: 120px;
+    float: right;
+}
+
+.newsletter {
+    padding-right: 60px;
+    text-align: center;
+    float: right;
+}
+
+.footer2 {
+    font-weight: lighter; /* Texte plus fin */
+}
+
+/* Style du champ email et du bouton "envoyer" */
+#email,
+#submit {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid white;
+    float: left;
+}
+
+#email {
+    margin-right: 10px;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+/* --- LOGO ET TEXTE D'INTRODUCTION --- */
+.logo44 {
+    float: left;
+    margin-right: 50px;
+    margin-left: 75px;
+}
+
+.trucc {
+    float: left;
+    margin-top: 50px;
+    margin-right: 110px;
+    color: white;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+}
+
+.truccc {
+    color: white;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    margin-right: -800px;
+}
