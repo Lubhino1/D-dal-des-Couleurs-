@@ -1,13 +1,9 @@
-
 body {
     font-family: 'Inter';
     margin: auto;
     text-decoration: none;
 }
 
-header {
-    
-}
 
 nav{
     width: 100%;
@@ -57,28 +53,34 @@ nav a:hover{
     color: rgb(144, 144, 144);
 }
 
-.image {
-    margin-top: 20px;
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 1600px;
+    width: 2560px;
 }
 
 .galerie {
     float: none;
-    margin-left: 400px;
-    margin-top: -110px;
-    font-size: 32px;
+    margin-left: 30%;
+    margin-top:-10%;
+    font-size: 400%;
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .fa-arrow-down {
     color: white;
-    margin-left: 650px;
+    margin-left: 50%;
+    margin-top: -6%;
 }
 
 h2{
     font-size: 32px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 35px;
 }
 
@@ -99,16 +101,20 @@ h2{
 
 .paragraphe3{
     float: right;
-    margin-left: 650px;
+    margin-left: 630px;
+    padding-right: 15px;
+    margin-top: 30px;
 }
 
 .image3{
     float: left;
-    margin-top: -200px;
+    margin-left: -700px;
+    padding-right: -130px;
+    
 }
 
 .titre2{
-    margin-top: 100px;
+    padding-top: 600px;
     margin-bottom: 75px;
 }
 
@@ -119,30 +125,36 @@ button{
 }
 
 .button1{ 
-    margin-left: 475px;
+    margin-left: 50%;
     margin-top: 20px;
     color: white;
     background-color: #1e1e1e;
     padding: 10px 20px;
     border-radius: 12px;
     border: none;
+    float: left;
+    padding-left: 10px;
 }
 .button2{ 
-    margin-left: 475px;
-    margin-top: 35px;
+    margin-left: 50%;
+    float: right;
     color: white;
     background-color: #1e1e1e;
     padding: 10px 20px;
     border-radius: 12px;
     border: none;
+    margin-right: 30px;
+    margin-top: -50px;
 }
 
 .ligne {
-    margin-left: 175px;
+    margin-left: 33%;
+    float: left;
 }
 
 .ligne2 {
-    margin-left: 175px;
+    margin-left: 33%;
+    float: left;
 }
 
 .image4 {
@@ -151,7 +163,7 @@ button{
 }
 
 .button3{
-    margin-left: 600px;
+    margin-left: 48%;
     margin-top: 35px;
     margin-bottom: 75px;
     color: rgb(0, 0, 0);
@@ -239,4 +251,393 @@ footer {
     font-size: 10px;
     margin-right: -800px;
 
+}
+
+@media (max-width: 2200px) {
+ .galerie {
+    float: none;
+    margin-left: 30%;
+    margin-top:-10%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ligne {
+    margin-left: 30%;
+}
+
+.ligne2 {
+    margin-left: 30%;
+}
+
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 1440px;
+    width: 2200px;
+}
+}
+
+@media (max-width: 1920px) {
+ .galerie {
+    float: none;
+    margin-left: 24%;
+    margin-top:-13%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ligne {
+    margin-left: 27%;
+}
+
+.ligne2 {
+    margin-left: 27%;
+}  
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 980px;
+    width: 1920px;
+}     
+
+@media (max-width: 1600px) {
+ .galerie {
+    float: none;
+    margin-left: 18%;
+    margin-top:-13%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ligne {
+    margin-left: 22%;
+}
+
+.ligne2 {
+    margin-left: 22%;
+}   
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 1100px;
+    width: 1600px;
+}    
+}
+
+@media (max-width: 1680px) {
+ .galerie {
+    float: none;
+    margin-left: 20%;
+    margin-top:-13%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ligne {
+    margin-left: 22%;
+}
+
+.ligne2 {
+    margin-left: 22%;
+}   
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 950px;
+    width: 1680px;
+}    
+}
+
+@media (max-width: 1524px) { 
+  .galerie {
+    float: none;
+    margin-left: 20%;
+    margin-top:-13%;
+    font-size: 380%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button1{ 
+    margin-left: 35%;
+    margin-top: 20px;
+    color: white;
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    float: left;
+    padding-left: 10px;
+}
+}
+
+@media (max-width: 1440px) {
+
+ .galerie {
+    float: none;
+    margin-left: 29%;
+    margin-top:-14%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 250%;
+}
+
+.ligne {
+    margin-left: 19%;
+}
+
+.ligne2 {
+    margin-left: 19%;
+}   
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 800px;
+    width: 1440px;
+}   
+
+}
+
+@media (max-width: 1280px) {
+ .galerie {
+    float: none;
+    margin-left: 25%;
+    margin-top:-14%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 250%;
+}
+
+.ligne {
+    margin-left: 14%;
+}
+
+.ligne2 {
+    margin-left: 14%;
+}   
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 620px;
+    width: 1280px;
+}    
+}
+
+@media (max-width: 1203px) {
+ .galerie {
+    float: none;
+    margin-left: 25%;
+    margin-top:-14%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 250%;
+}
+
+.truccc{
+    color: white;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    margin-right: -400px;
+
+}
+.paragraphe {
+    float: left;
+    padding-right: 650px;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+
+.ligne {
+    margin-left: 26%;
+    
+}
+
+.ligne2 {
+    margin-left: 26%;
+}   
+
+
+.button1{ 
+    margin-left: 25%;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    float: left;
+    padding-left: 10px;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 10px;
+}
+
+nav li{
+    float: right;
+    width: 15%;
+    text-align: center;
+}
+
+.image4 {
+    width: 20%;
+    height: 20%;
+ 
+
+}
+
+p a img{
+ width: 50px;
+ height: 50px;
+}
+
+.image2{
+    float: right;
+    margin-top: -270px;
+}
+
+
+
+h2{
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 90px;
+    margin-left: 35px;
+}
+
+}  
+
+@media (max-width: 1024px) {
+ .galerie {
+    float: none;
+    margin-left: 18%;
+    margin-top:-14%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 250%;
+}
+
+.titre2{
+    padding-top: 700px;
+    margin-bottom: 75px;
+}
+
+
+
+.truccc{
+    color: white;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    margin-right: -400px;
+
+}
+.paragraphe {
+    float: left;
+    padding-right: 650px;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+
+.ligne {
+    margin-left: 26%;
+    
+}
+
+.ligne2 {
+    margin-left: 26%;
+}   
+
+
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 10px;
+}
+
+nav li{
+    float: right;
+    width: 15%;
+    text-align: center;
+}
+
+.image4 {
+    width: 20%;
+    height: 20%;
+ 
+
+}
+
+p a img{
+ width: 50px;
+ height: 50px;
+}
+
+.image2{
+    float: right;
+    margin-top: -270px;
+}
+
+
+h2{
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 90px;
+    margin-left: 35px;
+}
+.image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 668px;
+    width: 1024px;
+}  
+  
+
+} 
+
+@media (max-width: 1023px) {
+ .titre2{
+    padding-top: 100px;
+    margin-left: 35%;
+    margin-bottom: 75px;
+    float: left;
+}
+
+h2{
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 90px;
+    margin-left: 38%;
+}
+}
 }
