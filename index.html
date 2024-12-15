@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
  <head>
  <meta charset="utf-8" />
  <title>Dédal des Couleurs</title>
+ <link rel="icon" href="images/favico.png" type="image/x-icon">
  <link rel="stylesheet" href="style.css" type="text/css" />
  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Galerie d'art située à Paris, spécialisée dans l'expressionnisme. Découvrez nos expositions d'artistes célèbres et contemporains, telles que Marc Chagall, Soutine, et plus encore.">
+ <meta name="keywords" content="galerie d'art, expressionnisme, Paris, expositions, Marc Chagall, Soutine, peinture, art moderne">
+ <meta name="author" content="Dédal des Couleurs">
  <script src="https://kit.fontawesome.com/58fbc1defa.js" crossorigin="anonymous"></script> 
 </head>
  <body>
    <header>
     <nav>
     <h1 class="titre">DEDAL DES COULEURS</h1>
+    <label for="toggle">☰</label>
+    <input type="checkbox" id="toggle">
       <ul class=menu>
-        <li><a href="#non">CONTACT</a>
-        <li><a href="#toujourspas">A PROPOS</a>
-        <li><a href="#nullepart">NOS EXPOSITIONS</a>
-        <li><a href="#non">LES ARTISTES</a>
-        <li><a href="#toujourspas">ACCUEIL</a>
+        <li><a href="#RS">CONTACT</a>
+        <li><a href="#trucc">A PROPOS</a>
+        <li><a href="#nos-expositions">NOS EXPOSITIONS</a>
+        <li><a href="#lignes">LES ARTISTES</a>
+        <li><a href="#">ACCUEIL</a>
         </ul>
     </nav>
    </header>
@@ -27,21 +33,29 @@
     <i class="fa-solid fa-arrow-down"></i>
 </div>
    <section>
-    <h2> Nos Expositions</h2>
+    <h2 id="nos-expositions"> Nos Expositions</h2>
+
+    <div class="image22">
+      <img class="image222" src="images/image2.png" alt="Tableau de Edouard Manet nommé L'amazone">
+      </div>  
 
     <div class="paragraphe">
         <h3> Visages de l'art</h3>
        <p> Cette exposition s'inscrit dans le cadre d'une exploration captivante de l’âme humaine à travers le prisme de l'expressionnisme. Chaque œuvre expose un "visage", réel ou abstrait, mais avant tout une émotion.À travers les pinceaux des grands maîtres ainsi que de talents contemporains, l'exposition plonge le visiteur dans l’intimité des regards et des expressions.</p>
        <p class="dispo"> Disponible jusqu’au 8 Janvier.</p>
     </div>   
-    <div class="image2">
-    <img src="images/image2.png" alt="Notre galerie d'art" width="625" height="300">
-    </div>  
+    
+   <div class="image2">
+         <img src="images/image2.png" alt="Tableau de Edouard Manet nommé L'amazone" width="625" height="300">
+   </div>
     <button class="button1" type="button">En savoir plus</button>
+    <div class="image6">
+      <img class="image66" src="images/image3.png" alt="Lithographie de Marc Chagall nommé l'Odyssée">
+      </div>
     <div class="paragraphe3">
-        <div class="image3">
-            <img src="images/image3.png" alt="Notre galerie d'art" width="625" height="300">
-            </div>
+      <div class="image3">
+         <img src="images/image3.png" alt="Lithographie de Marc Chagall nommé l'Odyssée" width="625" height="300">
+         </div>
         <h3> Les 12 Styles de Chagall</h3>
        <p> Un hommage à l'univers poétique et multiforme de Marc Chagall qui met en lumière la diversité stylistique d'un des plus grands artistes du XXe siècle. À travers douze approches emblématiques de son œuvre, cette exposition vous dévoile la richesse et l’universalité de son langage visuel, mêlant couleurs vibrantes, rêve ou réalité et symbolisme mystique.</p>
        <p class="dispo"> Disponible du 9 Janvier au 18 Mai.</p>
@@ -50,29 +64,32 @@
         <button class="button2" type="button">En savoir plus</button>
            
        </div>
-       <h2 class="titre2">Nos Coups de Coeurs</h2>
-
+       <h2 id="titre2">Nos Coups de Coeurs</h2>
+       <div id="lignes">
        <div class="ligne">
-       <img class="image4" src="images/image4.png" alt="Notre galerie d'art" width="300" height="300">
-       <img class="image4" src="images/image5.png" alt="Notre galerie d'art" width="300" height="300">
-       <img class="image4" src="images/image6.png" alt="Notre galerie d'art" width="300" height="300">
+       <img class="image4" src="images/image4.png" alt="Tableau de Pablo Picasso nommé Famille d'acrobates" width="300" height="300">
+       <img class="image4" src="images/image5.png" alt="Tableau de Chaim Soutine nommé La Devastation" width="300" height="300">
+       <img class="image4" src="images/image6.png" alt="Tableau de Jules Pascin nommé Les Deux Soeurs" width="300" height="300">
     </div>
     <div class="ligne2">
-       <img class="image4" src="images/image7.png" alt="Notre galerie d'art" width="300" height="300">
-       <img class="image4" src="images/image8.png" alt="Notre galerie d'art" width="300" height="300">
-       <img class="image4" src="images/image9.png" alt="Notre galerie d'art" width="300" height="300">
+       <img class="image4" src="images/image7.png" alt="Tableau nommé Sainte Marie" width="300" height="300">
+       <img class="image4" src="images/image8.png" alt="Tableau de Ernst Ludwig Kirchner nommé Cinq Femmes dans la Rue" width="300" height="300">
+       <img class="image4" src="images/image9.png" alt="Tableau de Heinrich Campendonk nommé Wald" width="300" height="300">
     </div>
    </div>
+   </div>
+   <div class="button33">
    <button class="button3" type="button">Voir plus</button>
- </section>
+   </div>
+</section>
 
  <footer>
-   <div class="RS">
+   <div id="RS">
    <h3 class = "footer1"> Nos Réseaux Sociaux</h3>
    <h4 class = "footer2"> Pour ne jamais rien manquer</h4>
-   <p><a href="https://www.facebook.com/profile.php?id=61568837166102"><img  src="images/logo1.png" alt="Notre galerie d'art" width="70" height="70"></a>
-   <a href="https://www.x.com"><img  src="images/logo2.png" alt="Notre galerie d'art" width="70" height="70"></a>
-   <a href="https://www.instagram.com"><img  src="images/logo3.png" alt="Notre galerie d'art" width="70" height="70"></a></p>
+   <p><a href="https://www.facebook.com/profile.php?id=61568837166102" target="_blank" rel="noopener noreferrer"><img  src="images/logo1.png" alt="Facebook" width="70" height="70"></a>
+   <a href="https://www.x.com" target="_blank" rel="noopener noreferrer"><img  src="images/logo2.png" alt="X (Ancinnement Twitter)" width="70" height="70"></a>
+   <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img  src="images/logo3.png" alt="Instagram" width="70" height="70"></a></p>
    </div>
    <div class="contact">
    <h3 class = "footer1"> Vous voulez nous contacter ?</h3>
@@ -90,14 +107,16 @@
     </form>
 </div>
 <BR>
-   
+</footer>
+<footer>
+   <div class="image566">
+   <img class="logo44" src="images/logo.png" alt="Logo de la galerie d'art" width="200" height="200">
+   </div>
+   <p id="trucc"> Galerie d'art dédiée à l'expressionnisme, située au cœur de Paris. Depuis plus de 30 ans, nous mettons en lumière les œuvres uniques de maîtres tels que Soutine, Modigliani, Chagall, et bien d'autres, ainsi que des talents contemporains. Paul Dechewsky est fier de vous accompagner à travers ce voyage qui parle aux coeurs.</p>
+</footer>
+<footer>
+   <p class="truccc"> ©2024 Dédal Des Couleurs. Tous droits réservés - Conception : Studio Perpignan</p>
+</footer>
 
-  </footer>
-  <footer>
-   <img class="logo44" src="images/logo.png" alt="Notre galerie d'art" width="200" height="200">
-   <p class="trucc"> Galerie d'art dédiée à l'expressionnisme, située au cœur de Paris. Depuis plus de 30 ans, nous mettons en lumière les œuvres uniques de maîtres tels que Soutine, Modigliani, Chagall, et bien d'autres, ainsi que des talents contemporains. Paul Dechewsky est fier de vous accompagner à travers ce voyage qui parle aux coeurs.</p>
-  </footer>
-  <footer><p class="truccc"> ©2024 Dédal Des Couleurs. Tous droits réservés - Conception : Studio Perpignan</p>
-  </footer>
  </body>
  </html>

@@ -77,7 +77,12 @@ nav a:hover{
     margin-top: -6%;
 }
 
-h2{
+label
+{
+    display: none;
+}
+
+#nos-expositions{
     font-size: 32px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 150px;
@@ -93,6 +98,7 @@ h2{
     float: left;
     padding-right: 650px;
     margin-left: 35px;
+    margin-top: 30px;
 }
 
 .dispo {
@@ -113,9 +119,13 @@ h2{
     
 }
 
-.titre2{
+#titre2{
     padding-top: 600px;
     margin-bottom: 75px;
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 150px;
+    margin-left: 35px;
 }
 
 button{
@@ -171,6 +181,11 @@ button{
     padding: 10px 20px;
     border-radius: 12px;
     border-width: 1px;
+    float: none;
+}
+
+#toggle {
+    display: none;
 }
 
 footer {
@@ -181,11 +196,19 @@ footer {
     color: #fff;
   }
 
-  .RS{
+  #RS{
     margin-left: 50px;
     padding-right: 120px;
     text-align: center;
     float: right;
+  }
+
+  .image6 {
+    display: none;
+  }
+
+  .image22 {
+    display: none;
   }
 
   .contact{
@@ -232,7 +255,7 @@ footer {
     margin-left: 75px;
 }
 
-.trucc{
+#trucc{
     float: left;
     margin-left: 00px;
     margin-right: 110px;
@@ -303,7 +326,9 @@ footer {
     height: auto;
     max-height: 980px;
     width: 1920px;
-}     
+}    
+ 
+}
 
 @media (max-width: 1600px) {
  .galerie {
@@ -520,7 +545,7 @@ p a img{
 
 
 
-h2{
+#nos-expositions{
     font-size: 32px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 90px;
@@ -530,7 +555,8 @@ h2{
 }  
 
 @media (max-width: 1024px) {
- .galerie {
+ 
+.galerie {
     float: none;
     margin-left: 18%;
     margin-top:-14%;
@@ -539,7 +565,7 @@ h2{
     font-size: 250%;
 }
 
-.titre2{
+#titre2{
     padding-top: 700px;
     margin-bottom: 75px;
 }
@@ -607,7 +633,7 @@ p a img{
 }
 
 
-h2{
+#nos-expositions{
     font-size: 32px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 90px;
@@ -626,18 +652,277 @@ h2{
 } 
 
 @media (max-width: 1023px) {
- .titre2{
-    padding-top: 100px;
-    margin-left: 35%;
-    margin-bottom: 75px;
+
+#lignes{
+    text-align: center;
+}
+
+.ligne {
+    display: inline-block;
+    margin-left: 5%;
+    float: none;
+
+}
+ 
+.ligne2{
+    display: inline-block;
+    margin-left: 5%;
+    float: none;
+
+}
+    #titre2{
+    padding-top: 10%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    float: none;
+    text-align: center;
+}
+
+#nos-expositions{
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20%;
+    margin-left: 0%;
+    text-align: center;
+    float: none;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 10px;
+}
+
+nav li{
+   padding-top: 2%;
+   padding-left: 43%;
+   float: none;
+   width: 15%;
+   text-align: justify;
+}
+
+nav .menu
+{
+    display: none;
+    flex-direction: column;
+    background: #ffffff;
+    height: 220px;
+}
+
+nav .menu a {
+    width: 50%;
+}
+
+label 
+{
+    display: flex;
+    margin-left: 35px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#toggle {
+    float: left;
+   margin-top: -30px;
+    margin-left: 30px;
+}
+
+.titre{
+    float: right;
+    margin-right: 20px;
+    margin-top : 15px;
+    font-size: 12px;
+    font-weight: bolder; 
+}
+
+#toggle:checked + .menu {
+    display: flex;
+}
+
+.image2 {
+
+   display: none;
+
+}
+
+.paragraphe {
+ padding-top: 320px;
+    float: left;
+    padding-right: 35px;
+    margin-left: 35px;
+    text-align: center;
+    margin-top: -300px;
+}
+
+.button1 {
+    display: none;
+}
+
+.button2 {
+    display: none;
+}
+
+.paragraphe3 {
+ padding-top: -320px;
+ float: right;
+ margin-left: 35px;
+ padding-right: 15px;
+ margin-top: 30px;
+ padding-bottom: 10%;
+ text-align: center;
+}
+
+.image3 {
+    display: none;
+}
+
+.image6{
+    display: initial;
+    text-align: center;
+}
+
+.image22 {
+    display: initial;
+    text-align: center;
+}
+
+.image222 {
+    float: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+.image66 {
+    float: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+.fa-arrow-down {
+    margin-left: 50%;
+    margin-top: -6000%;
     float: left;
 }
 
-h2{
-    font-size: 32px;
+
+.truccc{
+    color: white;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    margin-right: 0%;
+
+}
+
+.galerie {
+    float: none;
+    margin-left: 0%;
+    margin-top:-14%;
+    color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 90px;
-    margin-left: 38%;
+    font-size: 250%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10%;
+    background-attachment: fixed;
 }
+
+footer {
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+    background-color: #000000;
+    color: #fff;
+  }
+
+#RS{
+    margin-left: 00px;
+    padding-right: 0px;
+    text-align: center;
+    float: left;
+  }
+
+  .newsletter{
+    padding-right: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .contact{
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  #trucc {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    color: white;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+
 }
+
+.image566 {
+    text-align: center;
 }
+
+.logo44{
+    float: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    margin: 0;
+}
+
+.button3{
+    margin-left: 42%;
+    margin-right: 36%;
+    margin-top: 35px;
+    margin-bottom: 75px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.button33{
+    text-align: center;
+}
+
+
+
+@media (max-width: 700px) {
+
+.galerie {
+    font-size: 150%;
+}
+
+}
+
+@media (max-width: 435px) {
+
+    .galerie {
+        font-size: 150%;
+        margin-top: -100px;
+    }
+    
+    }
